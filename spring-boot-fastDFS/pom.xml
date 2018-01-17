@@ -33,12 +33,12 @@
             <artifactId>spring-boot-devtools</artifactId>
             <optional>true</optional>
         </dependency>
-        <dependency>
-            <groupId>org.csource</groupId>
-            <artifactId>fastdfs-client-java</artifactId>
-            <version>1.27-SNAPSHOT</version>
-        </dependency>
-    </dependencies>
+		<dependency>
+			<groupId>com.github.penggle</groupId>
+			<artifactId>fastdfs-client-java</artifactId>
+			<version>1.27</version>
+		</dependency>
+  </dependencies>
 
     <build>
         <plugins>
